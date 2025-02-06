@@ -76,9 +76,9 @@
 
 // const a = [4, 3, 12, 22, 65];
 
-// for (let i = 0; i < a.length; i++) {
-//   console.log(a[i] * 2);
-// }
+// a.forEach((broj) => {
+//   console.log(broj * 2);
+// });
 
 // 8.
 
@@ -178,16 +178,18 @@
 
 // 16.
 
-// const arr = [5, 2, 7, 11];
+// const arr = [5, 2, 7, 11, 6];
 // const num = 6;
 // let postoji = false;
+// let i = 0;
 
-// for (let i = 0; i < arr.length; i++) {
+// while (i < arr.length) {
 //   if (arr[i] === num) {
 //     postoji = true;
 //     console.log("Broj se nalazi u nizu");
 //     break;
 //   }
+//   i++;
 // }
 
 // if (!postoji) {
